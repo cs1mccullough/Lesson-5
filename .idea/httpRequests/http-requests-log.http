@@ -1,0 +1,54 @@
+GET http://localhost:8080/HTTPs://translate.yandex.net/api/v1/5/tr/json/?key=trnsl.1.1.20180918T185434Z.590bfe405a01177e.cf3960cf33309a025b8bda2392413770e4492d6b&text=I Like You&lang=en-es
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/HTTPs://translate.yandex.net/api/v1/5/tr/json/?key=trnsl.1.1.20180918T185434Z.590bfe405a01177e.cf3960cf33309a025b8bda2392413770e4492d6b&text=I Like You&lang=en-es
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/HTTPs://translate.yandex.net/api/v1/5/tr/json/?key=trnsl.1.1.20180918T185434Z.590bfe405a01177e.cf3960cf33309a025b8bda2392413770e4492d6b&text=I Like You&lang=en-es
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/HTTPs://translate.yandex.net/api/v1/5/tr/json/?keytranslate=trnsl.1.1.20180918T185434Z.590bfe405a01177e.cf3960cf33309a025b8bda2392413770e4492d6b&text=I Like You&lang=en-es
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/HTTPs://translate.yandex.net/api/v1/5/tr/json/?keytranslate=trnsl.1.1.20180918T185434Z.590bfe405a01177e.cf3960cf33309a025b8bda2392413770e4492d6b&text=I Like You&lang=en-es
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:8080/HTTPs://translate.yandex.net/api/v1/5/tr/json/translate
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/HTTPs://translate.yandex.net/api/v1/5/tr/json/translate
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/resources
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/resources
+Accept: text/plain
+Cache-Control: no-cache
+
+###
+

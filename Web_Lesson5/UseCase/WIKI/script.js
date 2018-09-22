@@ -1,7 +1,9 @@
 var app = angular.module('wikiApp', []);
 
 app.factory('wikiAPI', function ($http) {
-    var wikiURI = 'http://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=10&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&callback=JSON_CALLBACK&gsrsearch=';
+    var wikiURI = 'http://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0' +
+        '&gsrlimit=10&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1' +
+        '&exlimit=max&callback=JSON_CALLBACK&gsrsearch=';
 
     return function (text) {
         return $http.jsonp(wikiURI + encodeURIComponent(text));
